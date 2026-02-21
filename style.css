@@ -148,6 +148,64 @@
                 }
             }
         }
+        /* ------------Section-3--------------- */
+        #sec-3 {
+            margin-top: clamp(80px, 7vw, 140px);
+            margin-bottom: clamp(80px, 7vw, 140px);
+
+            h1 {
+                font-family: Fraunces;
+                font-weight: 900;
+                color: #FDD6BA;
+                font-size: 72px;
+                line-height: 100%;
+                text-align: center;
+
+            }
+
+            h2 {
+                font-family: Fraunces;
+                font-weight: 900;
+                color: #83888F;
+                font-size: 24px;
+                line-height: 150%;
+            }
+
+            h3 {
+                font-family: Fraunces;
+                font-weight: 900;
+                color: #333D4B;
+                font-size: 32px;
+                line-height: 114%;
+            }
+
+            p {
+                font-family: Barlow;
+                font-weight: 400;
+                font-style: Regular;
+                font-size: 16px;
+                line-height: 160%;
+                color: #333D4B;
+
+            }
+
+            button {
+                width: 218px;
+                height: 57px;
+                padding: 12px;
+                border-radius: 10px;
+                background-color: #0E8784;
+                font-family: Fraunces;
+                font-weight: 900;
+                color: #FEFCF7;
+                font-size: 18px;
+                line-height: 140%;
+                text-align: center;
+                border: none;
+                margin-top: 40px;
+            }
+        }
+
         /* <!-- -----------------Hero------------------- --> */
         #hero {
             opacity: 1;
