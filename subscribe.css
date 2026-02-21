@@ -48,17 +48,16 @@
                 }
             }
         }
-
-        /* <!-- -----------------Hero------------------- --> */
         
         /* <!-- -----------------Hero------------------- --> */
         #hero {
             opacity: 1;
             background-size: cover;
+            background-position: center;
             border-radius: 10px;
             height: 584px;
             position: relative;
-            background-image: url(./Footage/Bitmap.png);
+            background-image: url(./Footage/Subscription-Hero2.svg);
 
             @media screen and (max-width : 767px) {
                 background-position-x: 60%;
@@ -101,6 +100,50 @@
                     text-align: center;
                     border: none;
                     border-radius: 6px;
+                }
+            }
+        }
+        #sec-1_container{
+            margin-top: clamp(64px, 7vw, 140px);
+            margin-bottom: clamp(64px, 7vw, 140px);
+            background-color:  #333D4B;
+
+            #sec-1 {
+        
+                h1 {
+                    font-family: Fraunces;
+                    font-weight: 900;
+                    color: #FDD6BA;
+                    font-size: 72px;
+                    line-height: 100%;
+                    text-align: center;
+
+                }
+
+                h2 {
+                    font-family: Fraunces;
+                    font-weight: 900;
+                    color: #FEFCF7;
+                    font-size: 24px;
+                    line-height: 150%;
+                }
+
+                h3 {
+                    font-family: Fraunces;
+                    font-weight: 900;
+                    color: #FEFCF7;
+                    font-size: 32px;
+                    line-height: 114%;
+                }
+
+                p {
+                    font-family: Barlow;
+                    font-weight: 400;
+                    font-style: Regular;
+                    font-size: 16px;
+                    line-height: 160%;
+                    color: #FEFCF7;
+
                 }
             }
         }
