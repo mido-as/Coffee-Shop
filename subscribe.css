@@ -103,6 +103,7 @@
                 }
             }
         }
+        /* <!-- -----------------Section 1 ------------------- --> */
         #sec-1_container{
             margin-top: clamp(64px, 7vw, 140px);
             margin-bottom: clamp(64px, 7vw, 140px);
@@ -147,8 +148,147 @@
                 }
             }
         }
+        /* <!-- -----------------Section 2 ------------------- --> */
+        #section-2{
+            margin-bottom: clamp(64px, 7vw, 140px); 
+
+            #listGroup{
+
+                .list-group-item{
+                    font-family: Fraunces;
+                    font-weight: 900;
+                    color: #83888F;
+                    font-size: 24px;
+                    line-height: 150%;
+                    letter-spacing: 0px;
+                    cursor: pointer;
+
+                }
+
+                .list-group-item:hover {
+                    color:  #373737;
+                }
+                .list-group-item:active {
+                    p{
+                        color: #0E8784;
+                    }
+                }
+                .list-clicked{
+                    color: #373737;
+                     p{
+                        color: #0E8784;
+                    }
+                }
+
+            }
+            
+                
+            #accordions{
+
+                .accordion-button {
+                background-color: transparent ;
+                }
+
+                .accordion-button::after {
+                background-image: url(./Footage/Question\ Toggle.svg);
+                background-size: 80%;
+                
+                }
+
+                .accordion-button:focus {
+                background-color: transparent;
+                outline: none;
+                box-shadow: none;
+                }
+
+                .accordion-button:not(.collapsed):focus {
+                    background-color: transparent;
+                    box-shadow: none;
+                    background-color: none;
+                }
 
 
+                .accordion-title{
+                    font-family: Fraunces;
+                    font-weight: 900;
+                    color: #83888F;
+                    font-size: 30px;
+                    line-height: 120%;
+                }
+                .card{
+                    background-color: #F4F1EB;
+                    border: none;
+                    cursor: pointer;
+                    color: #333D4B;
+
+                    h2{
+                        font-family: Fraunces;
+                        font-weight: 900;
+                        font-size: 24px;
+                        line-height: 150%;
+                        /* color: #333D4B; */
+                    }
+
+                    p{
+                        font-family: Barlow;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 160%;
+                        /* color: #333D4B; */
+                    }
+                }
+                .card:hover {
+                        background-color:  #FDD6BA;
+                }
+                .card:active {
+                    border: 2px solid #0E8784;
+                }
+                
+            }
+
+            #order-summary{
+                background-color: #333D4B;
+                color: #FFFFFF;
+
+                p{
+                    font-family: Barlow;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 160%;
+                    text-transform: uppercase;
+                }
+
+                h2{
+                    font-family: Fraunces;
+                    font-weight: 900;
+                    font-size: 24px;
+                    line-height: 150%;
+                }
+            }
+
+            #plan-button{
+                font-family: Fraunces;
+                font-weight: 900;
+                width: 218px;
+                height: 57px;
+                background-color: #E2DEDB;
+                color: #FEFCF7;
+                border-radius: 10px;
+                border: none;
+            }
+
+            #plan-button:hover {
+                background-color:  #66D2CF;
+            }
+            #plan-button:active {
+                background-color:  #0E8784;
+                border: 2px solid #0E8784;
+            }
+                
+            
+            
+        }
+        /* <!-- -----------------Footer ------------------- --> */
         #footer {
             min-height: 120px;
             background-color: #333D4B;
