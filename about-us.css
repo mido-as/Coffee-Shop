@@ -130,7 +130,37 @@
 
         }
 
-        
+        #sec-3 {
+            height: auto;
+            /* margin-top: clamp(80px, 7vw, 140px); */
+            margin-bottom: clamp(80px, 7vw, 140px); 
+
+            h3, h2 {
+                font-family: Fraunces;
+                font-weight: 900;
+                line-height: 150%;
+                text-align: center;
+            }
+            h3{
+                color: #83888F;
+                font-size: 24px;
+            }
+            h2{
+                color: #333D4B;
+                font-size: 32px;
+            }
+
+            p {
+                font-family: Barlow;
+                font-weight: 400;
+                font-style: Regular;
+                font-size: 16px;
+                line-height: 160%;
+                letter-spacing: 0px;
+                text-align: center;
+                color: #333D4B;
+            }
+        }
 
         #footer {
             min-height: 120px;
