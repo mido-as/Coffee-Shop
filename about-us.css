@@ -58,7 +58,7 @@
             border-radius: 10px;
             height: 584px;
             position: relative;
-            background-image: url(./Footage/Bitmap.png);
+            background-image: url(./Footage/About-Hero\ Section.svg);
 
             @media screen and (max-width : 767px) {
                 background-position-x: 60%;
@@ -105,6 +105,32 @@
             }
         }
 
+        /* <!-- -----------------Section 1 ------------------- --> */
+        #sec-1 {
+            margin-top: clamp(80px, 7vw, 140px);
+            margin-bottom: 140px;
+
+            h2 {
+                font-size: 35px;
+                font-family: Fraunces;
+                font-weight: 900;
+                color: #333D4B;
+                font-size: clamp(28px, 5vw, 40px);
+                line-height: 120%;
+            }
+
+            p {
+                font-family: Barlow;
+                font-weight: 400;
+                font-style: Regular;
+                font-size: 16px;
+                color: #333D4B;
+                line-height: 160%;
+            }
+
+        }
+
+        
 
         #footer {
             min-height: 120px;
