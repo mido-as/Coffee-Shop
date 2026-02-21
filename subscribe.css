@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fraunces", "Barlow", sans-serif;
+}
+
+#main {
+    height: auto;
+    overflow: auto;
+    scrollbar-width: none;
+    background-color: #FEFCF7;
+
+    #container {
+        height: auto;
+        scrollbar-width: none;
+
+        /* <!-- -----------------navbar------------------- --> */
+        #navbar {
+            margin-top: clamp(24px, 5vw, 40px);
+            margin-bottom: clamp(32px, 5vw, 40px);
+            padding: 5px;
+
+            #logo {
+                width: 237px;
+                height: 24px;
+
+                @media screen and (max-width : 767px) {
+                    width: 160px;
+                }
+            }
+
+            #links {
+              
+                a {
+                    font-family: Barlow;
+                    font-weight: 700;
+                    font-style: Bold;
+                    font-size: 12px;
+                    line-height: 130%;
+                    letter-spacing: 0.92px;
+                    text-transform: uppercase;
+                    color: #83888F;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        /* <!-- -----------------Hero------------------- --> */
+        
+        /* <!-- -----------------Hero------------------- --> */
+        #hero {
+            opacity: 1;
+            background-size: cover;
+            border-radius: 10px;
+            height: 584px;
+            position: relative;
+            background-image: url(./Footage/Bitmap.png);
+
+            @media screen and (max-width : 767px) {
+                background-position-x: 60%;
+                background-blend-mode: color-burn;
+            }
+
+            #card {
+                width: 420px;
+                margin-left: clamp(24px, 7vw, 80px);
+                margin-top: clamp(112px, 7vw, 96px);
+                margin-bottom: clamp(112px, 7vw, 96px);
+
+                h1 {
+                    font-family: Fraunces;
+                    font-weight: 900;
+                    color: #FEFCF7;
+                    font-size: clamp(40px, 5vw, 65px);
+                }
+
+                p {
+                    font-family: Barlow;
+                    font-weight: 400;
+                    font-style: Regular;
+                    font-size: 16px;
+                    line-height: 160%;
+                    color: #FEFCF7;
+                    text-wrap: initial;
+                }
+
+                button {
+                    width: 218px;
+                    height: 57px;
+                    border-radius: corner-radius/6;
+                    background-color: #0E8784;
+                    color: #FEFCF7;
+                    font-family: Fraunces;
+                    font-weight: 900;
+                    font-size: 18px;
+                    line-height: 140%;
+                    text-align: center;
+                    border: none;
+                    border-radius: 6px;
+                }
+            }
+        }
+
+
+        #footer {
+            min-height: 120px;
+            background-color: #333D4B;
+
+            @media screen and (max-width : 767px) {
+                height: 180px;
+            }
+
+            #footer-logo {
+                width: clamp(160px, 7vw, 237px);
+            }
+
+            #footer-links {
+                min-width: 270px;
+                height: 16px;
+
+                a {
+                    font-family: Barlow;
+                    font-weight: 700;
+                    font-style: Bold;
+                    font-size: 12px;
+                    line-height: 130%;
+                    letter-spacing: 0.92px;
+                    text-transform: uppercase;
+                    color: #83888F;
+                    text-decoration: none;
+                }
+            }
+
+            #social-links {
+                width: 120px;
+                height: 24px;
+            }
+
+        }
+
+    }
+    
+}
