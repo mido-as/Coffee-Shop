@@ -1,7 +1,5 @@
 
-
-
-
+// change the color of chosen box
 function changeColor(element){
     
     const boxes = document.querySelectorAll('.card')
@@ -13,11 +11,38 @@ function changeColor(element){
     element.style.color = "white"
 }
 
-const PreferencesSpan = heading => document.getElementById ("Preferences_span").textContent = heading
-const BeanTypeSpan = heading => document.getElementById ("BeanType_span").textContent = heading
-const QuantitySpan = heading => document.getElementById ("Quantity_span").textContent = heading
-const GrindOptionSpan = heading => document.getElementById ("GrindOption_span").textContent = heading
+// const PreferencesSpan = heading => document.getElementById ("Preferences_span").textContent = heading
+// const BeanTypeSpan = heading => document.getElementById ("BeanType_span").textContent = heading
+// const QuantitySpan = heading => document.getElementById ("Quantity_span").textContent = heading
+// const GrindOptionSpan = heading => document.getElementById ("GrindOption_span").textContent = heading
 
+// display user choice in page and modal
+const PreferencesSpan = heading =>{
+    const text = document.querySelectorAll ('.Preferences_span')
+    text.forEach(txt =>{
+        txt.textContent = heading
+    }) 
+} 
+const BeanTypeSpan = heading =>{
+    const text = document.querySelectorAll ('.BeanType_span')
+    text.forEach(txt =>{
+        txt.textContent = heading
+    }) 
+} 
+const QuantitySpan = heading =>{
+    const text = document.querySelectorAll ('.Quantity_span')
+    text.forEach(txt =>{
+        txt.textContent = heading
+    }) 
+} 
+const GrindOptionSpan = heading =>{
+    const text = document.querySelectorAll ('.GrindOption_span')
+    text.forEach(txt =>{
+        txt.textContent = heading
+    }) 
+} 
+
+// change the style of List Group
 function Preferences_List(){
     const boxes = document.querySelectorAll('.list-group-item')
         boxes.forEach(box => {
@@ -53,3 +78,12 @@ function Deliveries_List(){
         });
     document.getElementById("DeliveriesList").classList.add('list-clicked')
 }
+
+// control modal closing when press anywhere ouside the modal
+const modal = document.getElementById("modal")
+const wrapper = document.getElementById("wrapper")
+modal.addEventListener('click', (e)=>{
+    if(!wrapper.contains(e.target)){
+        modal.close()
+    }
+})

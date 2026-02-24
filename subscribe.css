@@ -155,6 +155,7 @@
             #listGroup{
 
                 .list-group-item{
+                    background-color: #FEFCF7;
                     font-family: Fraunces;
                     font-weight: 900;
                     color: #83888F;
@@ -184,9 +185,11 @@
             
                 
             #accordions{
-
+                .accordion-body{
+                    background-color: #FEFCF7 
+                }
                 .accordion-button {
-                background-color: transparent ;
+                background-color: #FEFCF7 ;
                 }
 
                 .accordion-button::after {
@@ -196,13 +199,13 @@
                 }
 
                 .accordion-button:focus {
-                background-color: transparent;
+                background-color: #FEFCF7;
                 outline: none;
                 box-shadow: none;
                 }
 
                 .accordion-button:not(.collapsed):focus {
-                    background-color: transparent;
+                    background-color: #FEFCF7;
                     box-shadow: none;
                     background-color: none;
                 }
@@ -283,11 +286,84 @@
             #plan-button:active {
                 background-color:  #0E8784;
                 border: 2px solid #0E8784;
+            } 
+
+            dialog{
+                padding: 0;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                min-width: 40%;
+                /* z-index: 1; */
+                border: none;
+                border-radius: 10px;
+
+               
+
+                #modalContent{
+                    background-color: #FEFCF7;
+                    h1{
+                        color: #333D4B;
+                        font-family: Fraunces;
+                        font-weight: 900;
+                        font-size: 24px;
+                        line-height: 150%;
+                    }
+                    h2{
+                        color: #83888F;
+                        font-family: Fraunces;
+                        font-weight: 900;
+                        font-size: 24px;
+                        line-height: 150%;
+                    }
+                    p{
+                        color: #83888F;
+                        font-family: Barlow;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 160%;
+                        text-transform: uppercase;
+                    }
+                        
+                    }
+
+                #dialog-header{
+                    background-color: #333D4B;
+                    height: 100px;
+                    border: none;
+                    border-top-left-radius: 10px;
+                    border-top-right-radius: 10px;
+                    h1{
+                        font-family: Fraunces;
+                        font-weight: 900;
+                        color: #FFFFFF;
+                        font-size: 40px;
+                        line-height: 120%;
+                    }
+                    
+                }
+
+                button {
+                    /* width: 170px; */
+                    height: 45px;
+                    border-radius: corner-radius/6;
+                    background-color: #0E8784;
+                    color: #FEFCF7;
+                    font-family: Fraunces;
+                    font-weight: 900;
+                    font-size: 18px;
+                    line-height: 140%;
+                    text-align: center;
+                    border: none;
+                    border-radius: 6px;
+                    padding: 10px 30px;
+                }
             }
-                
-            
             
         }
+
+
         /* <!-- -----------------Footer ------------------- --> */
         #footer {
             min-height: 120px;
