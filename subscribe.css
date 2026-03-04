@@ -47,25 +47,31 @@
                     text-decoration: none;
                 }
             }
+            button{
+                border: none;
+            }
+        }
+        #navModal{
+            background-color: transparent;
+            margin-top: clamp(24px, 5vw, 40px);
+            margin-bottom: clamp(32px, 5vw, 40px);
+            padding: 5px;
+            border: none;
         }
         
         /* <!-- -----------------Hero------------------- --> */
         #hero {
-            opacity: 1;
             background-size: cover;
             background-position: center;
             border-radius: 10px;
-            height: 584px;
-            position: relative;
-            background-image: url(./Footage/Subscription-Hero2.svg);
+            height: 70vh;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./Footage/Subscription-Hero2.svg);
 
             @media screen and (max-width : 767px) {
                 background-position-x: 60%;
-                background-blend-mode: color-burn;
             }
 
             #card {
-                width: 420px;
                 margin-left: clamp(24px, 7vw, 80px);
                 margin-top: clamp(112px, 7vw, 96px);
                 margin-bottom: clamp(112px, 7vw, 96px);
@@ -84,7 +90,6 @@
                     font-size: 16px;
                     line-height: 160%;
                     color: #FEFCF7;
-                    text-wrap: initial;
                 }
 
                 button {
@@ -217,6 +222,9 @@
                     color: #83888F;
                     font-size: 30px;
                     line-height: 120%;
+                    @media screen and (max-width : 767px) {
+                            font-size: 24px;
+                        }
                 }
                 .card{
                     background-color: #F4F1EB;

@@ -27,15 +27,29 @@
                     <a href="./about-us.html">ABOUT US</a>
                     <a href="./subscribe.html">Create your plan</a>
                 </div>
-                <img src="./Footage/Hamburger.png" alt="" class="d-block d-md-none">
+                <!-- <button onclick="document.getElementById('navModal').showModal()"><img src="./Footage/Hamburger.png" alt="" class="d-block d-md-none"></button> -->
             </div>
+            <dialog id="navModal" class=" col-12 h-100 p-5">
+                <div id="navWrapper">
+                    <div class="col-12 d-flex justify-content-between align-items-center p-4">
+                        <img src="./Footage/Logo.svg" alt="">
+                        <button onclick="document.getElementById('navModal').close()" ><img src="./Footage/Hamburger close.png" alt=""></button>
+                    </div>
+
+                    <div>
+                        <h1>Home</h1>
+                        <h1>About Us</h1>
+                        <h1>Create Your Plan</h1>
+                    </div>
+                </div>
+            </dialog>
 
             <!-- -----------------Hero------------------- -->
 
             <div id="hero" class="col-12 d-flex justify-content-center justify-content-md-start justify-content-lg-start">
                 <div id="card" class="col-11 col-md-6 d-flex flex-column align-items-center align-items-md-start gap-3">
                     <h1>Create plan</h1>
-                    <p class="col-10 text-md-start text-center">Coffee the way you wanted it to be. For coffee delivered tomorrow, 
+                    <p class="col-md-12 col-lg-10 text-md-start text-center">Coffee the way you wanted it to be. For coffee delivered tomorrow, 
                         or next week. For whatever brew method you use. For choice, for convenience, for quality.
                     </p>
                 </div>
@@ -44,14 +58,14 @@
 
             <div id="sec-1_container" class="col-12 p-5">
                 <div id="sec-1" class="col-lg-9 col-md-12 d-flex flex-column align-items-center align-items-md-start gap-5">
-                    <img src="./Footage/How It Works Steps.svg" alt="" class="d-md-block d-none col-9">
+                    <img src="./Footage/How It Works Steps.svg" alt="" class="d-md-block d-none col-10">
 
-                    <div class="d-flex flex-column flex-md-row justify-content-between col-10 col-md-12 gap-5 gap-md-3 gap-lg-5">
+                    <div class="d-flex flex-column flex-md-row justify-content-between col-md-12 gap-5 gap-md-3 gap-lg-5">
 
                         <div class="col-md-4 col-12 d-flex flex-column align-items-center text-center align-items-md-start text-md-start gap-md-3 gap-3">
                             <h1>01</h1>
-                            <h3 class="col-lg-9 col-md-12 col-9">Pick your coffee</h3>
-                            <p class="col-9">
+                            <h3 class="col-lg-9 col-md-12">Pick your coffee</h3>
+                            <p class="col-12 col-md-10">
                                 Select from our evolving range of artisan coffees. 
                                 Our beans are ethically sourced and we pay fair prices 
                                 for them. There are new coffees in all profiles every 
@@ -60,8 +74,8 @@
                         </div>
                         <div class="col-md-4 col-12 d-flex flex-column align-items-center text-center align-items-md-start text-md-start gap-md-3 gap-3">
                             <h1>02</h1>
-                            <h3 class="col-lg-9 col-md-12 col-9">Choose the frequency</h3>
-                            <p class="col-9">
+                            <h3 class="col-lg-9 col-md-12">Choose the frequency</h3>
+                            <p class="col-12 col-md-10">
                                 Select from our evolving range of artisan coffees. 
                                 Our beans are ethically sourced and we pay fair prices 
                                 for them. There are new coffees in all profiles every 
@@ -70,8 +84,8 @@
                         </div>
                         <div class="col-md-4 col-12  d-flex flex-column align-items-center text-center align-items-md-start text-md-start gap-md-3 gap-3">
                             <h1>03</h1>
-                            <h3 class="col-lg-9 col-md-10 col-9">Receive and enjoy!</h3>
-                            <p class="col-9">
+                            <h3 class="col-lg-9 col-md-12">Receive and enjoy!</h3>
+                            <p class="col-12 col-md-10">
                                 Select from our evolving range of artisan coffees. 
                                 Our beans are ethically sourced and we pay fair prices 
                                 for them. There are new coffees in all profiles every 

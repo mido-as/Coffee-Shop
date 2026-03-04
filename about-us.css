@@ -51,16 +51,15 @@
         
         /* <!-- -----------------Hero------------------- --> */
         #hero {
-            opacity: 1;
             background-size: cover;
             border-radius: 10px;
-            height: 584px;
+            height: 70vh;
             position: relative;
-            background-image: url(./Footage/About-Hero\ Section.svg);
-
-            @media screen and (max-width : 767px) {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(./Footage/About-Hero\ Section.svg);
+            height: 100%;
+           
+            @media screen and (max-width : 1024px) {
                 background-position-x: 60%;
-                background-blend-mode: color-burn;
             }
 
             #card {
@@ -83,7 +82,6 @@
                     font-size: 16px;
                     line-height: 160%;
                     color: #FEFCF7;
-                    text-wrap: initial;
                 }
 
                 button {
@@ -106,14 +104,14 @@
         /* <!-- -----------------Section 1 ------------------- --> */
         #sec-1 {
             margin-top: clamp(80px, 7vw, 140px);
-            margin-bottom: 140px;
+            /* margin-bottom: clamp(80px, 7vw, 140px); */
 
             h2 {
-                font-size: 35px;
+                /* font-size: 35px; */
                 font-family: Fraunces;
                 font-weight: 900;
                 color: #333D4B;
-                font-size: clamp(28px, 5vw, 40px);
+                font-size: clamp(28px, 5vw, 35px);
                 line-height: 120%;
             }
 
@@ -131,47 +129,49 @@
         /* <!-- -----------------Section 2 ------------------- --> */
         #sec-2 {
             background-color: #333D4B;
-            margin-top: clamp(80px, 7vw, 140px);
-            margin-bottom: clamp(80px, 7vw, 140px);
+            margin-top: 160px;
+            margin-bottom: 120px;
+            /* margin-top: clamp(80px, 10vw, 140px); */
+           
             
-            /* @media screen and (max-width : 992px) {
-                   margin-top:90px ;
-                } */
-            @media screen and (max-width : 768px) {
-                margin-top:-10px ;
+            @media screen and (max-width : 992px) {
+                margin-top: 280px;
+                margin-bottom: 80px;
+            }
+            @media screen and (max-width : 767px) {
+                margin-top: 140px;
+                margin-bottom: 80px;
             }
 
             #img-Lg{
-            margin-top: -20%;
+                margin-top: -70px;
+                margin-bottom: 70px;
             }
             #img-md{
-                margin-top:-150px ;
-                margin-bottom: 20px;
+                margin-top:-200px ;
+                margin-bottom: 40px;
             }
             #img-sm{
-                margin-top:-130px ;
+                margin-top:-90px ;
             }
 
             h1{
-                /* margin-top: 40px; */
                 font-family: Fraunces;
-                font-size:20px;
                 font-weight: 800;
                 color: #FEFCF7;
-                font-size: 40px;
+                font-size: 30px;
                 line-height: 120%;
                 text-align: center;
             }
 
             p{
                 font-family: Barlow;
-                font-size: 16px;
                 color: #FEFCF7;
                 font-weight: 400;
                 font-style: Regular;
                 font-size: 16px;
                 line-height: 180%;
-                text-align: center;
+                
             }
 
 
