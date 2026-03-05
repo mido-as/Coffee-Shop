@@ -19,7 +19,7 @@
         scrollbar-width: none;
 
         /* <!-- -----------------navbar------------------- --> */
-        #navbar {
+        /* #navbar {
             margin-top: clamp(24px, 5vw, 40px);
             margin-bottom: clamp(32px, 5vw, 40px);
             padding: 5px;
@@ -106,9 +106,9 @@
             }
             
         }
-        
+         */
         /* <!-- -----------------Hero------------------- --> */
-        #hero {
+        #hero-subscribe {
             background-size: cover;
             background-position: center;
             border-radius: 10px;
@@ -162,7 +162,7 @@
             margin-bottom: clamp(64px, 7vw, 140px);
             background-color:  #333D4B;
 
-            #sec-1 {
+            #sub__sec-1 {
         
                 h1 {
                     font-family: Fraunces;
@@ -202,7 +202,7 @@
             }
         }
         /* <!-- -----------------Section 2 ------------------- --> */
-        #section-2{
+        #sub__sec-2{
             margin-bottom: clamp(64px, 7vw, 140px); 
 
             #listGroup{
@@ -421,7 +421,7 @@
 
 
         /* <!-- -----------------Footer ------------------- --> */
-        #footer {
+        /* #footer {
             min-height: 120px;
             background-color: #333D4B;
 
@@ -455,7 +455,7 @@
                 height: 24px;
             }
 
-        }
+        } */
 
     }
     

@@ -19,7 +19,7 @@
         scrollbar-width: none;
 
         /* <!-- -----------------navbar------------------- --> */
-        #navbar {
+        /* #navbar {
             margin-top: clamp(24px, 5vw, 40px);
             margin-bottom: clamp(32px, 5vw, 40px);
             padding: 5px;
@@ -106,9 +106,9 @@
                 }
             }
             
-        }
+        } */
         /* <!-- -----------------Hero------------------- --> */
-        #hero {
+        #hero-about {
             background-size: cover;
             border-radius: 10px;
             height: 70vh;
@@ -160,7 +160,7 @@
         }
 
         /* <!-- -----------------Section 1 ------------------- --> */
-        #sec-1 {
+        #about__sec-1 {
             margin-top: clamp(80px, 7vw, 140px);
             /* margin-bottom: clamp(80px, 7vw, 140px); */
 
@@ -185,7 +185,7 @@
         }
 
         /* <!-- -----------------Section 2 ------------------- --> */
-        #sec-2 {
+        #about__sec-2 {
             background-color: #333D4B;
             margin-top: 160px;
             margin-bottom: 120px;
@@ -236,7 +236,7 @@
             
         }
 
-        #sec-3 {
+        #about__sec-3 {
             height: auto;
             margin-bottom: clamp(80px, 7vw, 140px); 
 
@@ -267,7 +267,7 @@
             }
         }
 
-        #footer {
+        /* #footer {
             min-height: 120px;
             background-color: #333D4B;
 
@@ -301,7 +301,7 @@
                 height: 24px;
             }
 
-        }
+        } */
 
     }
     
