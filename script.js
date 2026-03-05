@@ -87,3 +87,16 @@ modal.addEventListener('click', (e)=>{
         modal.close()
     }
 })
+
+// toggle hamberger icon
+
+function toggleHamburger() {
+   
+    let hamburger = document.getElementById("Hamburger")
+    let links = document.getElementById("links")
+
+    hamburger.classList.toggle("active");
+    links.classList.toggle("active");
+   
+};
+
